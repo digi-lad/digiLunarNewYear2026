@@ -8,7 +8,7 @@ const WISHES = {
   "default": {
     id: "default",
     to: "Người Anh/Chị/Em Thiện Lành",
-    msg: "Năm mới bớt tạo nghiệp, sống healthy, tiền đầy ví. OK chưa?"
+    msg: "Năm mới vui vẻ!!! Chúc anh/chị/em/bạn một năm thật nhiều tiền, nhiều tình, nhiều sức khỏe, nhiều niềm vui, nhiều kiến thức, và nhiều may mắn nhé!"
   },
   "bch": {
     id: "bch",
