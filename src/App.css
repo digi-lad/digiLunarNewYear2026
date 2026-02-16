@@ -417,6 +417,9 @@
   background: var(--white);
   border: 2px inset #999;
   margin: 1rem;
+  max-height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .popup-icon {
@@ -439,6 +442,7 @@
   line-height: 1.5;
   color: var(--black);
   margin-bottom: 1.5rem;
+  white-space: pre-line;
 }
 
 .popup-footer {
@@ -484,5 +488,9 @@
 
   .popup-button {
     font-size: 0.875rem;
+  }
+
+  .popup-body {
+    max-height: 70vh;
   }
 }
