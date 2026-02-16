@@ -7,22 +7,27 @@ import './App.css';
 const WISHES = {
   "default": {
     id: "default",
-    to: "Người Anh Em Thiện Lành",
+    to: "Người Anh/Chị/Em Thiện Lành",
     msg: "Năm mới bớt tạo nghiệp, sống healthy, tiền đầy ví. OK chưa?"
   },
   "bch": {
     id: "bch",
-    to: "Các Sếp (BCH)",
-    msg: "SYSTEM_MSG: Chúc các đồng chí năm mới gánh team còng lưng. Deadline là dĩ vãng!"
+    to: "Các Đồng chí Ban Chấp Hành",
+    msg: "Chúc các đồng chí năm mới gánh team còng lưng. Deadline là dĩ vãng!"
   },
-  "crush": {
-    id: "crush",
-    to: "Đằng Ấy",
-    msg: "Năm nay tớ bật đèn xanh rồi đấy. Liệu mà phi trâu vào tim tớ đi. Không nhận lời từ chối."
+  "lucky": {
+    id: "lucky",
+    to: "Chính béu",
+    msg: "Chúc mừng năm mới! Chúc béo luôn may mắn, luôn khỏe mạnh, luôn vui vẻ."
   },
-  "hoie": {
-    id: "hoie",
-    to: "Hội Ế Bền Vững",
+  "mom": {
+    id: "mom",
+    to: "Mẹ iu",
+    msg: "Chúc mừng năm mới! Chúc chúng ta sớm thoát kiếp nạn này. Nếu không thoát được thì... kệ."
+  },
+  "sis": {
+    id: "sis",
+    to: "Mèo méo meo mèo meo",
     msg: "Chúc mừng năm mới! Chúc chúng ta sớm thoát kiếp nạn này. Nếu không thoát được thì... kệ."
   }
 };
@@ -47,7 +52,7 @@ const CARD_RESULTS = [
     type: 'love',
     title: 'TÌNH DUYÊN TỚI CẢN KO KỊP',
     emoji: '❤️🔥',
-    desc: 'Năm nay có người yêu. Không nói nhiều. Chuẩn bị phát thiệp đi.',
+    desc: 'Năm nay có tình yêu. Không nói nhiều.',
     memeImage: 'https://res.cloudinary.com/ducrwqhit/image/upload/v1771234502/love_sddgm3.gif' // Replace with your meme image URL
   }
 ];
